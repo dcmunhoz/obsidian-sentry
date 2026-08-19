@@ -1,0 +1,39 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.sentry-observable {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+	padding: 12px;
+	margin-top: 12px;
+}
+
+.sentry-rule {
+	border-left: 3px solid var(--interactive-accent);
+	padding-left: 12px;
+	margin-top: 8px;
+}
+
+.sentry-summary {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	font-weight: var(--font-semibold);
+}
+
+.sentry-summary .setting-item {
+	border: none;
+	padding: 0;
+}
+
+.sentry-summary .setting-item-control {
+	justify-content: flex-end;
+}

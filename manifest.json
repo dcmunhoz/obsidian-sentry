@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-sentry",
+	"name": "Sentry",
+	"version": "1.0.0",
+	"minAppVersion": "1.4.4",
+	"description": "A sentinel that observes Obsidian events and triggers predefined actions.",
+	"author": "Obsidian",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}
