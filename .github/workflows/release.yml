@@ -23,7 +23,6 @@ jobs:
             - name: Build plugin
               run: |
                   npm i --legacy-peer-deps
-                  npm ci
                   npm run build
 
             - name: Check for optional styles
